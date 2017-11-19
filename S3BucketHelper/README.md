@@ -7,9 +7,13 @@ This class will work with Bluemix (IBM Cloud) S3 buckets and should work with
   AWS buckets too, although I haven't tested that yet.  
 
 #### What you need...
+1. Works with Python 2.7
 
- - AWS credentials
+2. AWS credentials
+
+```bash
 vim ~/.aws/credentials
+```
 
 ```
 [default]
@@ -17,15 +21,15 @@ aws_access_key_id = {Access Key ID}
 aws_secret_access_key = {Secret Access Key}
 ```
 
-- install requirements
+3. install requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-- an endpoint url (Where is your bucket located?)
+4. an endpoint url (Where is your bucket located?)
 
-#### Start using
+#### Start using it
 
 ```Python
 import os
