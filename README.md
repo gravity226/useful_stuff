@@ -5,4 +5,4 @@ I've created this repo to share solutions to nontrivial coding problems I've
 
 #### Python
 
-- [Boto3 S3 bucket helper class](www.google.com)  
+- [Boto3 S3 bucket helper class](https://github.com/gravity226/useful_stuff/tree/master/S3BucketHelper)
