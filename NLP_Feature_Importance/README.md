@@ -2,12 +2,12 @@
 In this example we will build a Logistic Regression model to predict whether a user will open an email based on the words in the subject line.  We'll then use the coefficients from the model to determine what words impact the open rate the most.
 
 ## Table of Contents
-1. [Wrangle your data](https://github.com/gravity226/headline_model#wrangle-your-data)
-2. [Creating the Bag of Words Model](https://github.com/gravity226/headline_model#creating-the-bag-of-words-model)
-3. [Creating the Logistic Regression Model](https://github.com/gravity226/headline_model#creating-the-logistic-regression-model)
-4. [Looking at Feature Importance](https://github.com/gravity226/headline_model#looking-at-feature-importance)
-5. [Making New Predictions](https://github.com/gravity226/headline_model#making-new-predictions)
-6. [Other Thoughts](https://github.com/gravity226/headline_model#other-thoughts)
+1. [Wrangle your data](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#wrangle-your-data)
+2. [Creating the Bag of Words Model](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#creating-the-bag-of-words-model)
+3. [Creating the Logistic Regression Model](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#creating-the-logistic-regression-model)
+4. [Looking at Feature Importance](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#looking-at-feature-importance)
+5. [Making New Predictions](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#making-new-predictions)
+6. [Other Thoughts](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#other-thoughts)
 
 ## Wrangle your data
 I am currently working with an email dataset that shows when an email was delivered and opened.  You can really use anything in this example though as long as you have a piece of text (x) and a response (y):

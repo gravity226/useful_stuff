@@ -2,19 +2,19 @@
 Getting familiar with the Looker Python api and using Python to create Looker Looks with a little data science goodness mixed in.
 
 ## Table of Contents
-1. [Download the Looker API](https://github.com/gravity226/looker_python#download-the-looker-api)
-2. [Getting Familiar with the API](https://github.com/gravity226/looker_python#getting-familiar-with-the-api)
-    - [Setting up your client](https://github.com/gravity226/looker_python#setting-up-your-client)
-    - [Inline Queries](https://github.com/gravity226/looker_python#inline-query)
-    - [Models](https://github.com/gravity226/looker_python#models)
-    - [Looks](https://github.com/gravity226/looker_python#looks)
-3. [Use Case](https://github.com/gravity226/looker_python#use-case)
-    - [Get some data for the regression model](https://github.com/gravity226/looker_python#get-some-data-to-build-the-regression-model)
-    - [Creating the Query](https://github.com/gravity226/looker_python#creating-the-query)
-    - [Creating the Look](https://github.com/gravity226/looker_python#creating-the-look)
-4. [Other Thoughts](https://github.com/gravity226/looker_python#other-thoughts)
-5. [Conclusion?](https://github.com/gravity226/looker_python#conclusion)
-6. [References](https://github.com/gravity226/looker_python#references)
+1. [Download the Looker API](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#download-the-looker-api)
+2. [Getting Familiar with the API](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#getting-familiar-with-the-api)
+    - [Setting up your client](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#setting-up-your-client)
+    - [Inline Queries](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#inline-query)
+    - [Models](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#models)
+    - [Looks](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#looks)
+3. [Use Case](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#use-case)
+    - [Get some data for the regression model](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#get-some-data-to-build-the-regression-model)
+    - [Creating the Query](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#creating-the-query)
+    - [Creating the Look](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#creating-the-look)
+4. [Other Thoughts](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#other-thoughts)
+5. [Conclusion?](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#conclusion)
+6. [References](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python#references)
 
 ## Download the Looker API
 This Looker Discourse has a great article on [generating the python API](https://discourse.looker.com/t/generating-client-sdks-for-the-looker-api/3185).  When cloning the repo I had to put in the full URL instead of the git@github...  At the end I also didn't move the folder to a new folder called looker because I already have a python library called looker.  You'll see in the code that I reference this instead:
