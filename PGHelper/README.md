@@ -29,7 +29,7 @@ results = pg_helper.execute_query(query='''select * from schema.table limit 1;''
 print results
 ```
 
-- Using **with** the DB connection will be closed automatically on completion
+- Using **with**, the DB connection will be closed automatically on completion
 ```Python
 from PGHelper import PGHelper
 import os
@@ -44,7 +44,8 @@ with PGHelper(dbname=os.environ['db_name'],
 print results
 ```
 
-- **Optional** -> Setting up your ~/.bash_profile (Mac only).  If you put these variables in your bash profile then you won't need to pass them into the class every time you use it.
+#### **Optional** -> Setting up your ~/.bash_profile (Mac only).  
+- If you put these variables in your bash profile then you won't need to pass them into the class every time you use it.
 
 ```Bash
 export db_name='db_name'
