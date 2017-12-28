@@ -44,7 +44,7 @@ with PGHelper(dbname=os.environ['db_name'],
 print results
 ```
 
-#### **Optional** -> Setting up your ~/.bash_profile (Mac only).  
+#### Optional -> Setting up your ~/.bash_profile (Mac only)  
 - If you put these variables in your bash profile then you won't need to pass them into the class every time you use it.
 
 ```Bash
@@ -55,13 +55,13 @@ export db_password='db_password'
 export db_port='db_port'
 ```
 
-- Don't forget to source your bash profile
+- Don't forget to source your bash profile using terminal
 
 ```Bash
 source ~/.bash_profile
 ```
 
-- Now try it in Python.
+- Now try it in Python
 ```Python
 from PGHelper import PGHelper
 
