@@ -28,6 +28,8 @@ class PGHelper():
                 return conn, cursor
             except:
                 self.time.sleep(5) # sleep for 5 seconds and try again
+                
+        raise Exception ('ALERT!! Unable to connect to Postgres')
 
     def execute_query(self, query, has_results=True):
         # if connection closed then reconnect
