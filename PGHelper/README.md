@@ -45,7 +45,7 @@ with PGHelper(dbname=os.environ['db_name'],
               user=os.environ['db_user'],
               password=os.environ['db_password'],
               port=os.environ['db_port']) as pg_helper:
-    results = pg_helper.execute_query(query='''select * from reporting.email_activities limit 1;''')
+    results = pg_helper.execute_query(query='''select * from schema.table limit 1;''')
 
 print results
 ```
@@ -79,7 +79,7 @@ with PGHelper() as pg_helper:
 print results
 ```
 
-When there are no values passed in, the class will attempt to grab them from the environment.
+Looks a little cleaner right? When there are no values passed in, the class will attempt to grab them from the environment.
 
 ## Don't load everything into memory
 - When you're working with larger datasets it's not a good idea to load all of your query results into memory.  What we can do instead is work with a named cursor.  We can do this by setting the parameter "cursor_name='anything'".  Then we can call the iter_query function and work with one record at a time.
@@ -126,7 +126,7 @@ with PGHelper(cursor_name='stream') as pg_helper:
 finish = h.heap().size
 print ''
 print finish - start, 'bytes'
-# >> 8,000 bytes
+# >> 8000 bytes
 ```
 
 Looks like it's working.  5 million to 8 thousand bytes of memory is a pretty dramatic difference.
