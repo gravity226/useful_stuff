@@ -5,11 +5,11 @@ This class is meant to make working with Postgres a little bit easier.
 1. [What you need](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#what-you-need)
 2. [Start using it](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#start-using-it)
 3. [Setting up your ~/.bash_profile (Mac only) ](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#optional---setting-up-your-bash_profile-mac-only)
-4. [Looking at Feature Importance](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#looking-at-feature-importance)
+4. [Looking at Feature Importance](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#dont-load-everything-into-memory)
 5. [Making New Predictions](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#making-new-predictions)
 6. [Other Thoughts](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#other-thoughts)
 
-#### What you need...
+## What you need...
 1. Works with Python 2.7
 
 2. Download the files (PGHelper.py and requirements.txt)
@@ -20,7 +20,7 @@ This class is meant to make working with Postgres a little bit easier.
 pip install -r requirements.txt
 ```
 
-#### Start using it
+## Start using it
 
 - Standard use case
 ```Python
@@ -52,7 +52,7 @@ with PGHelper(dbname=os.environ['db_name'],
 print results
 ```
 
-#### Optional -> Setting up your ~/.bash_profile (Mac only)  
+## Optional -> Setting up your ~/.bash_profile (Mac only)  
 - If you put these variables in your bash profile then you won't need to pass them into the class every time you use it.
 
 ```Bash
