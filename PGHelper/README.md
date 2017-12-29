@@ -102,7 +102,7 @@ from guppy import hpy
 h = hpy()
 start = h.heap().size
 
-with PGHelper(cursor_name='stream') as pg_helper:
+with PGHelper() as pg_helper:
     results = pg_helper.execute_query(query='''select * from schema.table limit 10000;''')
 
 finish = h.heap().size
