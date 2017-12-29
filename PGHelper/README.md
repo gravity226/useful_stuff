@@ -129,4 +129,4 @@ print finish - start, 'bytes'
 # >> 8000 bytes
 ```
 
-Looks like it's working.  5 million to 8 thousand bytes of memory is a pretty dramatic difference.
+Looks like it's working.  5 million to 8 thousand bytes of memory used is a pretty dramatic difference.
