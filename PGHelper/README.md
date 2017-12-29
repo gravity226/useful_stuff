@@ -1,4 +1,4 @@
-## Postgres Helper
+# Postgres Helper
 This class is meant to make working with Postgres a little bit easier.
 
 ## Table of Contents
