@@ -5,9 +5,7 @@ This class is meant to make working with Postgres a little bit easier.
 1. [What you need](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#what-you-need)
 2. [Start using it](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#start-using-it)
 3. [Setting up your ~/.bash_profile (Mac only) ](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#optional---setting-up-your-bash_profile-mac-only)
-4. [Looking at Feature Importance](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#dont-load-everything-into-memory)
-5. [Making New Predictions](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#making-new-predictions)
-6. [Other Thoughts](https://github.com/gravity226/useful_stuff/tree/master/NLP_Feature_Importance#other-thoughts)
+4. [Don't load everything into memory](https://github.com/gravity226/useful_stuff/tree/master/PGHelper#dont-load-everything-into-memory)
 
 ## What you need...
 1. Works with Python 2.7
