@@ -16,4 +16,4 @@ I've created this repo to share solutions to nontrivial coding problems I've
 - [Using Python 2.7 with Looker](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python)
 
 #### Configuration stuff
-- [Python 3.6 setup for Centos](https://github.com/gravity226/useful_stuff/tree/master/centos_setup)
+- [Python 3.6 setup for CentOS](https://github.com/gravity226/useful_stuff/tree/master/centos_setup)
