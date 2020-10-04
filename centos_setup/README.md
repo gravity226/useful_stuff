@@ -22,4 +22,9 @@ sudo pip3.6 install pydevd=1.5.1
 
 # tmux
 sudo yum install -y tmux
+
+# yarn
+curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
+curl --silent --location https://rpm.nodesource.com/setup_12.x | sudo bash -
+sudo yum install -y yarn
 ```
