@@ -18,3 +18,6 @@ I've created this repo to share solutions to nontrivial coding problems I've
 
 #### Vis stuff
 - [Using Python 2.7 with Looker](https://github.com/gravity226/useful_stuff/tree/master/looker_and_python)
+
+#### Docker Files
+- [Keras Jupyter Lab](https://github.com/gravity226/useful_stuff/tree/master/DockerFiles/KerasJupyterLab)
