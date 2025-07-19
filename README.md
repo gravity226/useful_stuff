@@ -21,3 +21,4 @@ I've created this repo to share solutions to nontrivial coding problems I've
 
 #### Docker Files
 - [Keras Jupyter Lab](https://github.com/gravity226/useful_stuff/tree/master/DockerFiles/KerasJupyterLab)
+- [PyTorch Jupyter Lab](https://github.com/gravity226/useful_stuff/tree/master/DockerFiles/PyTorchJupyterLab)
